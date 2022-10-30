@@ -1,4 +1,5 @@
 from flask import Flask
+set FLASK_APP=_init_.py
 
 def create_app(test_config=None):
   # set up app config
